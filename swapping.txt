@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    //swapping two values without using third variable
+    int a,b,c;
+    printf("enter a&b");
+    scanf("%d %d",&a,&b);
+    
+    printf("before swapping");
+    printf("%d %d",a,b);
+    c=a;
+    a=b;
+    b=c;
+    printf("after swapping");
+    printf("%d %d",a,b);
+    
+}

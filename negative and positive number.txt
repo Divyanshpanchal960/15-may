@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the value of a,b,c");
+    scanf("%d %d %d",&a,&b,&c);
+    
+    if(a>0){
+        printf(" a is positive number\n");
+    }
+    if(b<0){
+        printf("b is negetive number\n");
+    }
+    if(c==0){
+        printf("c is zero number\n");
+    }  
+}
